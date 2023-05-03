@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>Castro - HTML 5 Template Preview</title>
+
+<!-- Fav Icon -->
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/jquery-ui.css" rel="stylesheet">
+<link href="assets/css/jquery.bootstrap-touchspin.css" rel="stylesheet">
+<link href="assets/css/nice-select.css" rel="stylesheet">
+<link href="assets/css/color.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+<body>
+
+    <div class="boxed_wrapper">
+        <!-- Preloader -->
+        <div class="loader-wrap">
+            <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+            <div class="layer layer-one"><span class="overlay"></span></div>
+            <div class="layer layer-two"><span class="overlay"></span></div>        
+            <div class="layer layer-three"><span class="overlay"></span></div>        
+        </div>
+
+
+        <!-- search-popup -->
+        <div id="search-popup" class="search-popup">
+            <div class="close-search"><i class="flaticon-close"></i></div>
+            <div class="popup-inner">
+                <div class="overlay-layer"></div>
+                <div class="search-form">
+                    <form method="post" action="index.html">
+                        <div class="form-group">
+                            <fieldset>
+                                <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                                <input type="submit" value="Search Now!" class="theme-btn style-four">
+                            </fieldset>
+                        </div>
+                    </form>
+                    <h3>Recent Search Keywords</h3>
+                    <ul class="recent-searches">
+                        <li><a href="index.html">Finance</a></li>
+                        <li><a href="index.html">Idea</a></li>
+                        <li><a href="index.html">Service</a></li>
+                        <li><a href="index.html">Growth</a></li>
+                        <li><a href="index.html">Plan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- search-popup end -->
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <div class="header-top">
+                <div class="auto-container">
+                    <div class="top-inner clearfix">
+                        <div class="top-left pull-left">
+                            <ul class="info clearfix">
+                                <li><i class="flaticon-email"></i><a href="mailto:support@example.com">support@example.com</a></li>
+                                <li><i class="flaticon-global"></i> Kleine Pierbard 8-6 2249 KV Vries</li>
+                            </ul>
+                        </div>
+                        <div class="top-right pull-right">
+                            <ul class="social-links clearfix">
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                            <div class="language">
+                                <div class="lang-btn">
+                                    <span class="flag"><img src="assets/images/icons/icon-lang.png" alt="" title="English"></span>
+                                    <span class="txt">English</span>
+                                    <span class="arrow fa fa-angle-down"></span>
+                                </div>
+                                <div class="lang-dropdown">
+                                    <ul>
+                                        <li><a href="index.html">German</a></li>
+                                        <li><a href="index.html">Italian</a></li>
+                                        <li><a href="index.html">Chinese</a></li>
+                                        <li><a href="index.html">Russian</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="price-box">
+                                <span>USD</span>
+                                <ul class="price-list clearfix">
+                                    <li><a href="index.html">USD</a></li>
+                                    <li><a href="index.html">UK</a></li>
+                                    <li><a href="index.html">URO</a></li>
+                                    <li><a href="index.html">Spanish</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <div class="menu-area">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="dropdown"><a href="index.html">Home</a>
+                                            <ul>
+                                                <li><a href="index.html">Home Page 01</a></li>
+                                                <li><a href="index-2.html">Home Page 02</a></li>
+                                                <li><a href="index-3.html">Home Page 03</a></li>
+                                                <li><a href="index-4.html">Home Page 04</a></li>
+                                                <li><a href="index-5.html">Home Page 05</a></li>
+                                                <li><a href="index-rtl.html">Home RTL</a></li>
+                                                <li><a href="index-onepage.html">Home OnePage</a></li>
+                                                <li class="dropdown"><a href="index.html">Header Style</a>
+                                                    <ul>
+                                                        <li><a href="index.html">Header Style 01</a></li>
+                                                        <li><a href="index-2.html">Header Style 02</a></li>
+                                                        <li><a href="index-4.html">Header Style 03</a></li>
+                                                        <li><a href="index-5.html">Header Style 04</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="index.html">Pages</a>
+                                            <ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="service.html">Our Service</a></li>
+                                                <li><a href="team.html">Our Team</a></li>
+                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                <li><a href="error.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="current dropdown"><a href="index.html">Shop<span>Hot</span></a>
+                                            <div class="megamenu">
+                                                <div class="row clearfix">
+                                                    <div class="col-lg-4 column">
+                                                        <ul>
+                                                            <li><h4>Shop Page</h4></li>
+                                                            <li><a href="shop.html">Shop Page 01</a></li>
+                                                            <li><a href="shop-2.html">Shop Page 02</a></li>
+                                                            <li><a href="shop-3.html">Shop Page 03</a></li>
+                                                            <li><a href="shop-4.html">Shop Page 04</a></li>
+                                                            <li><a href="shop-5.html">Shop Page 05</a></li>
+                                                            <li><a href="shop-6.html">Shop Page 06</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4 column">
+                                                        <ul>
+                                                            <li><h4>Product Details Page</h4></li>
+                                                            <li><a href="product-details.html">Product Details 01</a></li>
+                                                            <li><a href="product-details-2.html">Product Details 02</a></li>
+                                                            <li><a href="product-details-3.html">Product Details 03</a></li>
+                                                            <li><a href="product-details-4.html">Product Details 04</a></li>
+                                                            <li><a href="product-details-5.html">Product Details 05</a></li>
+                                                            <li><a href="product-details-6.html">Product Details 06</a></li>
+                                                            <li><a href="product-details-7.html">Product Details 07</a></li>
+                                                        </ul>
+                                                    </div> 
+                                                    <div class="col-lg-4 column">
+                                                        <ul>
+                                                            <li><h4>Other Shop Page</h4></li>
+                                                            <li><a href="cart.html">Cart Page</a></li>
+                                                            <li><a href="checkout.html">Checkout Page</a></li>
+                                                            <li><a href="my-account.html">My Account</a></li>
+                                                        </ul>
+                                                    </div>                                        
+                                                </div>                                           
+                                            </div>
+                                        </li>
+                                        <li class="dropdown"><a href="index.html">Elements</a>
+                                            <div class="megamenu">
+                                                <div class="row clearfix">
+                                                    <div class="col-lg-6 column">
+                                                        <ul>
+                                                            <li><h4>Elements 1</h4></li>
+                                                            <li><a href="category-element-1.html">Category 01</a></li>
+                                                            <li><a href="category-element-2.html">Category 02</a></li>
+                                                            <li><a href="category-element-3.html">Category 03</a></li>
+                                                            <li><a href="category-element-4.html">Category 04</a></li>
+                                                            <li><a href="shop-element-1.html">Shop 01</a></li>
+                                                            <li><a href="shop-element-2.html">Shop 02</a></li>
+                                                            <li><a href="shop-element-3.html">Shop 03</a></li>
+                                                            <li><a href="shop-element-4.html">Shop 04</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-6 column">
+                                                        <ul>
+                                                            <li><h4>Elements 2</h4></li>
+                                                            <li><a href="news-element-1.html">News 01</a></li>
+                                                            <li><a href="news-element-2.html">News 02</a></li>
+                                                            <li><a href="service-element-1.html">Service 01</a></li>
+                                                            <li><a href="service-element-2.html">Service 02</a></li>
+                                                            <li><a href="team-element-1.html">Team 01</a></li>
+                                                            <li><a href="team-element-2.html">Team 02</a></li>
+                                                            <li><a href="instagram-element.html">Instagram</a></li>
+                                                            <li><a href="clients-element.html">Clients</a></li>
+                                                        </ul>
+                                                    </div>                                        
+                                                </div>                                           
+                                            </div>
+                                        </li>    
+                                        <li class="dropdown"><a href="index.html">Blog</a>
+                                            <ul>
+                                                <li><a href="blog.html">Blog 01</a></li>
+                                                <li><a href="blog-2.html">Blog 02</a></li>
+                                                <li><a href="blog-3.html">Blog 03</a></li>
+                                                <li><a href="blog-4.html">Blog 04</a></li>
+                                                <li><a href="blog-5.html">Blog 05</a></li>
+                                                <li><a href="blog-details.html">Blog Details 01</a></li>
+                                                <li><a href="blog-details-2.html">Blog Details 02</a></li>
+                                            </ul>
+                                        </li> 
+                                        <li><a href="contact.html">Contact</a></li>               
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <ul class="menu-right-content clearfix">
+                            <li>
+                                <div class="search-btn">
+                                    <button type="button" class="search-toggler"><i class="flaticon-search"></i></button>
+                                </div>
+                            </li>
+                            <li><a href="index.html"><i class="flaticon-like"></i></a></li>
+                            <li><a href="index.html"><i class="flaticon-user"></i></a></li>
+                            <li class="shop-cart">
+                                <a href="shop.html"><i class="flaticon-shopping-cart-1"></i><span>3</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box clearfix">
+                        <div class="logo-box pull-left">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/small-logo.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area pull-right">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- page-title -->
+        <section class="page-title centred">
+            <div class="pattern-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Product Details 04</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><i class="flaticon-home-1"></i><a href="index.html">Home</a></li>
+                        <li>Product Details 04</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- product-details -->
+        <section class="product-details product-details-4">
+            <div class="auto-container">
+                <div class="product-details-content">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                            <div class="bxslider">
+                                <div class="slider-content">
+                                    <div class="product-image">
+                                        <figure class="image">
+                                            <img src="assets/images/resource/shop/product-details-10.jpg" alt="">
+                                            <a href="assets/images/resource/shop/product-details-10.jpg" class="lightbox-image"><i class="flaticon-search-2"></i></a>
+                                        </figure>
+                                    </div>
+                                    <div class="slider-pager centred">
+                                        <ul class="thumb-box">
+                                            <li>
+                                                <a class="active" data-slide-index="0" href="#"><figure><img src="assets/images/resource/shop/single-thumb-3.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="1" href="#"><figure><img src="assets/images/resource/shop/single-thumb-4.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="2" href="#"><figure><img src="assets/images/resource/shop/single-thumb-5.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="3" href="#"><figure><img src="assets/images/resource/shop/single-thumb-6.jpg" alt=""></figure></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-content">
+                                    <div class="product-image">
+                                        <figure class="image">
+                                            <img src="assets/images/resource/shop/product-details-11.jpg" alt="">
+                                            <a href="assets/images/resource/shop/product-details-11.jpg" class="lightbox-image"><i class="flaticon-search-2"></i></a>
+                                        </figure>
+                                    </div>
+                                    <div class="slider-pager centred">
+                                        <ul class="thumb-box">
+                                            <li>
+                                                <a class="active" data-slide-index="0" href="#"><figure><img src="assets/images/resource/shop/single-thumb-3.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="1" href="#"><figure><img src="assets/images/resource/shop/single-thumb-4.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="2" href="#"><figure><img src="assets/images/resource/shop/single-thumb-5.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="3" href="#"><figure><img src="assets/images/resource/shop/single-thumb-6.jpg" alt=""></figure></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-content">
+                                    <div class="product-image">
+                                        <figure class="image">
+                                            <img src="assets/images/resource/shop/product-details-9.jpg" alt="">
+                                            <a href="assets/images/resource/shop/product-details-9.jpg" class="lightbox-image"><i class="flaticon-search-2"></i></a>
+                                        </figure>
+                                    </div>
+                                    <div class="slider-pager centred">
+                                        <ul class="thumb-box">
+                                            <li>
+                                                <a class="active" data-slide-index="0" href="#"><figure><img src="assets/images/resource/shop/single-thumb-3.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="1" href="#"><figure><img src="assets/images/resource/shop/single-thumb-4.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="2" href="#"><figure><img src="assets/images/resource/shop/single-thumb-5.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="3" href="#"><figure><img src="assets/images/resource/shop/single-thumb-6.jpg" alt=""></figure></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="slider-content">
+                                    <div class="product-image">
+                                        <figure class="image">
+                                            <img src="assets/images/resource/shop/product-details-8.jpg" alt="">
+                                            <a href="assets/images/resource/shop/product-details-8.jpg" class="lightbox-image"><i class="flaticon-search-2"></i></a>
+                                        </figure>
+                                    </div>
+                                    <div class="slider-pager centred">
+                                        <ul class="thumb-box">
+                                            <li>
+                                                <a class="active" data-slide-index="0" href="#"><figure><img src="assets/images/resource/shop/single-thumb-3.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="1" href="#"><figure><img src="assets/images/resource/shop/single-thumb-4.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="2" href="#"><figure><img src="assets/images/resource/shop/single-thumb-5.jpg" alt=""></figure></a>
+                                            </li>
+                                            <li>
+                                                <a data-slide-index="3" href="#"><figure><img src="assets/images/resource/shop/single-thumb-6.jpg" alt=""></figure></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div class="product-info">
+                                <h3>Multi-Way Ultra Crop Top</h3>
+                                <div class="customer-review clearfix">
+                                    <ul class="rating-box clearfix">
+                                        <li><i class="flaticon-star"></i></li>
+                                        <li><i class="flaticon-star"></i></li>
+                                        <li><i class="flaticon-star"></i></li>
+                                        <li><i class="flaticon-star"></i></li>
+                                        <li><i class="flaticon-star"></i></li>
+                                    </ul>
+                                    <div class="reviews"><a href="product-single.html">(5 Reviews)</a></div>
+                                </div>
+                                <span class="item-price">$90.00</span>
+                                <div class="text">
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspic atis unde omnis iste natus.</p>
+                                </div>
+                                <div class="othre-options clearfix">
+                                    <div class="item-box">
+                                        <div class="single-item clearfix">
+                                            <div class="item-quantity">
+                                                <input class="quantity-spinner" type="text" value="1" name="quantity">
+                                            </div>
+                                            <h5>Cold Crewneck Sweater<span>$70.30</span></h5>
+                                        </div>
+                                        <div class="single-item clearfix">
+                                            <div class="item-quantity">
+                                                <input class="quantity-spinner" type="text" value="1" name="quantity">
+                                            </div>
+                                            <h5>Woven Crop Cami<span>$50.30</span></h5>
+                                        </div>
+                                    </div>
+                                    <div class="btn-box"><button type="button" class="theme-btn-two">Add to cart</button></div>
+                                    <ul class="info clearfix">
+                                        <li><a href="product-details.html"><i class="flaticon-heart"></i></a></li>
+                                        <li><a href="product-details.html"><i class="flaticon-search"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="other-links">
+                                    <ul class="clearfix">
+                                        <li>SKU: 05</li>
+                                        <li>Category: <a href="product-details.html">Accessories</a></li>
+                                        <li>Tags: <a href="product-details.html">glasses</a>,<a href="product-details.html">t-shirts</a>,<a href="product-details.html">watches</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="share-option clearfix">
+                                    <li><h5>Follow Us:</h5></li>
+                                    <li><a href="shop-details.html"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="shop-details.html"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="shop-details.html"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="shop-details.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-discription">
+                    <div class="tabs-box">
+                        <div class="tab-btn-box">
+                            <ul class="tab-btns tab-buttons clearfix">
+                                <li class="tab-btn" data-tab="#tab-1">Description</li>
+                                <li class="tab-btn active-btn" data-tab="#tab-2">Reviews(1)</li>
+                            </ul>
+                        </div>
+                        <div class="tabs-content">
+                            <div class="tab" id="tab-1">
+                                <div class="text">
+                                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesc iunt. neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                </div>
+                            </div>
+                            <div class="tab active-tab" id="tab-2">
+                                <div class="review-box">
+                                    <h5>1 Review for Multi-Way Ultra Crop Top</h5>
+                                    <div class="review-inner">
+                                        <figure class="image-box"><img src="assets/images/resource/review-1.png" alt=""></figure>
+                                        <div class="inner">
+                                            <ul class="rating clearfix">
+                                                <li><i class="flaticon-star"></i></li>
+                                                <li><i class="flaticon-star"></i></li>
+                                                <li><i class="flaticon-star"></i></li>
+                                                <li><i class="flaticon-star"></i></li>
+                                                <li><i class="flaticon-star-1"></i></li>
+                                            </ul>
+                                            <h6>Eileen Alene <span>- May 1, 2020</span></h6>
+                                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa  qui officia deserunt mollit anim  est laborum. Sed perspiciatis unde omnis natus error sit voluptatem accusa dolore mque laudant totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi arch tecto beatae vitae dicta.</p>
+                                        </div>
+                                    </div>
+                                    <div class="replay-inner">
+                                        <h5>Be First to Review For “Multi-Way Ultra Crop Top”</h5>
+                                        <div class="rating-box clearfix">
+                                            <h6>Your Rating</h6>
+                                            <ul class="rating clearfix">
+                                                <li><i class="flaticon-star-1"></i></li>
+                                                <li><i class="flaticon-star-1"></i></li>
+                                                <li><i class="flaticon-star-1"></i></li>
+                                                <li><i class="flaticon-star-1"></i></li>
+                                                <li><i class="flaticon-star-1"></i></li>
+                                            </ul>
+                                        </div>
+                                        <form action="contact.html" method="post" class="review-form">
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                    <label>Your Review</label>
+                                                    <textarea name="message"></textarea>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                    <label>Your Name</label>
+                                                    <input type="text" name="name" required="">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                    <label>Your Emai</label>
+                                                    <input type="email" name="email" required="">
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                    <div class="custom-controls-stacked">
+                                                        <label class="custom-control material-checkbox">
+                                                            <input type="checkbox" class="material-control-input">
+                                                            <span class="material-control-indicator"></span>
+                                                            <span class="description">Save my name, email, and website in this browser for the next time I comment</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                                    <button type="submit" class="theme-btn-two">Submit Your Review<i class="flaticon-right-1"></i></button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-product">
+                    <div class="sec-title style-two">
+                        <h2>Related Products</h2>
+                        <p>There are some product that we featured for choose your best</p>
+                        <span class="separator" style="background-image: url(assets/images/icons/separator-2.png);"></span>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 shop-block">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box">
+                                        <img src="assets/images/resource/shop/shop-1.jpg" alt="">
+                                        <ul class="info-list clearfix">
+                                            <li><a href="index.html"><i class="flaticon-heart"></i></a></li>
+                                            <li><a href="product-details.html">Add to cart</a></li>
+                                            <li><a href="assets/images/resource/shop/shop-1.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-search"></i></a></li>
+                                        </ul>
+                                    </figure>
+                                    <div class="lower-content">
+                                        <a href="product-details.html">Cold Crewneck Sweater</a>
+                                        <span class="price">$70.30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 shop-block">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box">
+                                        <img src="assets/images/resource/shop/shop-2.jpg" alt="">
+                                        <span class="category green-bg">New</span>
+                                        <ul class="info-list clearfix">
+                                            <li><a href="index.html"><i class="flaticon-heart"></i></a></li>
+                                            <li><a href="product-details.html">Add to cart</a></li>
+                                            <li><a href="assets/images/resource/shop/shop-2.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-search"></i></a></li>
+                                        </ul>
+                                    </figure>
+                                    <div class="lower-content">
+                                        <a href="product-details.html">Multi-Way Ultra Crop Top</a>
+                                        <span class="price">$50.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 shop-block">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box">
+                                        <img src="assets/images/resource/shop/shop-3.jpg" alt="">
+                                        <ul class="info-list clearfix">
+                                            <li><a href="index.html"><i class="flaticon-heart"></i></a></li>
+                                            <li><a href="product-details.html">Add to cart</a></li>
+                                            <li><a href="assets/images/resource/shop/shop-3.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-search"></i></a></li>
+                                        </ul>
+                                    </figure>
+                                    <div class="lower-content">
+                                        <a href="product-details.html">Side-Tie Tank</a>
+                                        <span class="price">$40.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 shop-block">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box">
+                                        <img src="assets/images/resource/shop/shop-4.jpg" alt="">
+                                        <ul class="info-list clearfix">
+                                            <li><a href="index.html"><i class="flaticon-heart"></i></a></li>
+                                            <li><a href="product-details.html">Add to cart</a></li>
+                                            <li><a href="assets/images/resource/shop/shop-4.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-search"></i></a></li>
+                                        </ul>
+                                    </figure>
+                                    <div class="lower-content">
+                                        <a href="product-details.html">Cold Crewneck Sweater</a>
+                                        <span class="price">$60.30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product-details end -->
+
+
+        <!-- main-footer -->
+        <footer class="main-footer light">
+            <div class="footer-top">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-12 col-sm-12 big-column">
+                            <div class="row clearfix">
+                                <div class="col-lg-4 col-md-4 col-sm-12 footer-column">
+                                    <div class="footer-widget logo-widget">
+                                        <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo-2.png" alt=""></a></figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title">
+                                            <h3>Category</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="index.html">Men</a></li>
+                                                <li><a href="index.html">Women</a></li>
+                                                <li><a href="index.html">Kids</a></li>
+                                                <li><a href="index.html">Accessories</a></li>
+                                                <li><a href="index.html">Shoe</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title">
+                                            <h3>Useful Link</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="index.html">News & Tips</a></li>
+                                                <li><a href="index.html">About Us</a></li>
+                                                <li><a href="index.html">Terms & Conditions</a></li>
+                                                <li><a href="index.html">Our Shop</a></li>
+                                                <li><a href="index.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 big-column">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget contact-widget">
+                                        <div class="widget-title">
+                                            <h3>Contact</h3>
+                                        </div>
+                                        <ul class="info-list clearfix">
+                                            <li><i class="flaticon-maps-and-flags"></i>4708 Ruecker Wall, Kassandratown, HI</li>
+                                            <li><i class="flaticon-phone-ringing"></i><a href="tel:23055873407">+2(305) 587-3407</a></li>
+                                            <li><i class="flaticon-email"></i><a href="mailto:info@example.com">info@example.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget newsletter-widget">
+                                        <div class="widget-title">
+                                            <h3>Newsletter</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <p>4708 Ruecker Wall, Kassandratown, HI 97729</p>
+                                            <form action="contact.html" method="post" class="newsletter-form">
+                                                <div class="form-group">
+                                                    <input type="email" name="email" placeholder="Enter your email" required="">
+                                                    <button type="submit" class="theme-btn-three">Subscribe</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="auto-container clearfix">
+                    <ul class="cart-list pull-left clearfix">
+                        <li><a href="index.html"><img src="assets/images/resource/card-1.png" alt=""></a></li>
+                        <li><a href="index.html"><img src="assets/images/resource/card-2.png" alt=""></a></li>
+                        <li><a href="index.html"><img src="assets/images/resource/card-3.png" alt=""></a></li>
+                        <li><a href="index.html"><img src="assets/images/resource/card-4.png" alt=""></a></li>
+                    </ul>
+                    <div class="copyright pull-right">
+                        <ul class="footer-social clearfix">
+                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-vimeo-v"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                        <p><a href="index.html">Castro</a> &copy; 2020 All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+        <!--Scroll to top-->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-long-arrow-alt-up"></i>
+        </button>
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
+    <script src="assets/js/bxslider.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+</body><!-- End of .page_wrapper -->
+</html>
